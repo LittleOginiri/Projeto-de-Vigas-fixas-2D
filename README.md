@@ -15,14 +15,6 @@ Projeto em **Python** para simular vigas 2D biapoiadas (pino/rolete), com **adi�
 
 ---
 
-## 📦 Requisitos
-- **Python 3.9+**
-- **Tkinter** (já vem no Python do Windows e macOS; em algumas distros Linux pode ser necessário instalar):
-  - Debian/Ubuntu: `sudo apt-get install python3-tk`
-
-Não há dependências via `pip` neste momento.
-
----
 
 ## ▶️ Como executar
 Na **raiz do projeto** (onde está `main.py`), rode:
