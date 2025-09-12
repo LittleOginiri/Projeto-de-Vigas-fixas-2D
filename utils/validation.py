@@ -1,5 +1,4 @@
-# validation.py
-from models import BeamModel
+from models.models import BeamModel
 
 def validate_point(model: BeamModel, x: float):
     L = model.length_m

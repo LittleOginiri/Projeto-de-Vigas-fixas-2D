@@ -1,4 +1,3 @@
-# theming.py
 PALETTE = {
     "bg": "#ffffff",
     "beam": "#444",
@@ -7,7 +6,3 @@ PALETTE = {
     "udl_text": "#0a4",
     "axis": "#888",
 }
-
-def setup_ttk_style(root):
-    # Se quiser personalizar ttk depois
-    pass

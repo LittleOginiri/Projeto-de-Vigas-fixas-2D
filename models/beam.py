@@ -4,11 +4,12 @@ from .load import Load
 
 @dataclass
 class Beam:
-    length_m: float
+    length_m: float = 5.0
     loads: List[Load] = field(default_factory=list)
 
     def add_load(self, load: Load) -> None:
         self.loads.append(load)
 
     def remove_load(self, idx: int) -> None:
-        del self.loads[idx]
+        if 0 <= idx < len(self.loads):
+            del self.loads[idx]

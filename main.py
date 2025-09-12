@@ -1,4 +1,4 @@
-from app.views.main_view import MainView
+from views.main_view import MainView
 
 if __name__ == "__main__":
     app = MainView()

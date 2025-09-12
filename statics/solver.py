@@ -1,6 +1,5 @@
-# statics/solver.py
 from typing import Callable, Tuple, List
-from models import BeamModel, Load
+from models.models import BeamModel, Load
 
 def solve_reactions(model: BeamModel) -> Tuple[float, float]:
     """

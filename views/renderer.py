@@ -1,6 +1,7 @@
-# renderer.py
-import math
 import tkinter as tk
+import math
+from models.beam import Beam
+from models.load import Load
 
 class BeamRenderer:
     def __init__(self, canvas: tk.Canvas):
@@ -40,7 +41,7 @@ class BeamRenderer:
         # legenda
         self._legend(w, h)
 
-    # ----------------- privados -----------------
+    # ============ privados ============
     def _axis_ticks(self, X, y_beam, L):
         n_ticks = min(10, max(2, int(L)))
         for i in range(n_ticks + 1):
