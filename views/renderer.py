@@ -185,12 +185,12 @@ class BeamRenderer:
         # reações na legenda (opcional)
         if rx is not None:
             y_text += 6
-            c.create_text(x0 + 8, y_text, anchor=tk.NW, text="Reações:", font=("Arial", 9, "bold"), fill="#1e90ff")
+            c.create_text(x0 + 8, y_text, anchor=tk.NW, text="Reações:", font=("Arial", 9, "bold"), fill="#000000")
             y_text += 16
-            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Ax = {rx['Ax']:.2f} N", font=("Arial", 9), fill="#00bcd4")
+            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Ax = {rx['Ax']:.2f} N", font=("Arial", 9), fill="#000000")
             y_text += 16
-            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Ay = {rx['Ay']:.2f} N", font=("Arial", 9), fill="#1e90ff")
+            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Ay = {rx['Ay']:.2f} N", font=("Arial", 9), fill="#000000")
             y_text += 16
-            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Bx = {rx['Bx']:.2f} N", font=("Arial", 9), fill="#00bcd4")
+            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"Bx = {rx['Bx']:.2f} N", font=("Arial", 9), fill="#000000")
             y_text += 16
-            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"By = {rx['By']:.2f} N", font=("Arial", 9), fill="#1e90ff")
+            c.create_text(x0 + 8, y_text, anchor=tk.NW, text=f"By = {rx['By']:.2f} N", font=("Arial", 9), fill="#000000")
